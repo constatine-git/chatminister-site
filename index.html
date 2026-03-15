@@ -17,7 +17,7 @@
     }
 
     .container {
-      max-width: 1000px;
+      max-width: 1100px;
       margin: 0 auto;
       padding: 40px 20px;
     }
@@ -26,19 +26,19 @@
       background: linear-gradient(135deg, #2563eb, #1d4ed8);
       color: white;
       border-radius: 24px;
-      padding: 50px 30px;
+      padding: 56px 32px;
       text-align: center;
       box-shadow: 0 14px 35px rgba(0, 0, 0, 0.15);
     }
 
     .hero h1 {
-      margin: 0 0 12px;
+      margin: 0 0 14px;
       font-size: 48px;
     }
 
     .hero p {
       margin: 0 auto 24px;
-      max-width: 700px;
+      max-width: 760px;
       font-size: 18px;
       line-height: 1.6;
     }
@@ -50,7 +50,7 @@
     .btn {
       display: inline-block;
       margin: 8px;
-      padding: 14px 22px;
+      padding: 14px 24px;
       border-radius: 12px;
       text-decoration: none;
       font-weight: bold;
@@ -91,6 +91,11 @@
       color: #111827;
     }
 
+    .section p {
+      line-height: 1.7;
+      font-size: 16px;
+    }
+
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -114,7 +119,7 @@
 
     .card p {
       margin: 0;
-      line-height: 1.5;
+      line-height: 1.6;
       font-size: 15px;
     }
 
@@ -142,17 +147,26 @@
       <h1>ChatMinister</h1>
       <p>
         AI-powered clinic receptionist for patient inquiries, clinic hours,
-        services, fees, and appointment guidance.
+        location, services, consultation fees, and appointment guidance.
       </p>
 
       <div class="buttons">
-        <a class="btn btn-primary" href="https://t.me/ChatministerBot" target="_blank">Chat on Telegram</a>
-        <a class="btn btn-secondary" href="#about">Learn More</a>
+        <a class="btn btn-primary" href="https://t.me/ChatministerBot" target="_blank" rel="noopener noreferrer">
+          Chat on Telegram
+        </a>
+        <a class="btn btn-secondary" href="#about">
+          Learn More
+        </a>
       </div>
     </section>
 
     <section class="section" id="about">
-      <h2>What ChatMinister Can Do</h2>
+      <h2>About ChatMinister</h2>
+      <p>
+        ChatMinister is a demo AI receptionist designed for clinics and healthcare front desks.
+        It helps patients ask common questions, check clinic information, and get guided toward
+        the right next step before speaking with staff.
+      </p>
 
       <div class="grid">
         <div class="card">
@@ -162,17 +176,17 @@
 
         <div class="card">
           <h3>Appointment Guidance</h3>
-          <p>Helps patients prepare appointment requests with the details clinic staff need.</p>
+          <p>Guides patients on what details are needed when requesting an appointment.</p>
         </div>
 
         <div class="card">
-          <h3>Doctor Schedule Info</h3>
-          <p>Shares listed doctor availability based on the clinic knowledge base.</p>
+          <h3>Doctor Availability</h3>
+          <p>Shares listed doctor schedules and directs users to staff when confirmation is needed.</p>
         </div>
 
         <div class="card">
           <h3>Safe Escalation</h3>
-          <p>Refers urgent or medical advice questions to clinic staff or emergency services.</p>
+          <p>Refers urgent concerns and medical-advice questions to clinic staff or emergency services.</p>
         </div>
       </div>
     </section>
@@ -181,8 +195,8 @@
       <h2>Important Notice</h2>
       <p>
         ChatMinister is a front-desk assistant only. It does not provide diagnosis,
-        prescriptions, or emergency medical advice. For urgent concerns, please
-        contact clinic staff or emergency services immediately.
+        prescriptions, or emergency medical advice. For urgent concerns, please contact
+        clinic staff or emergency services immediately.
       </p>
     </section>
 
